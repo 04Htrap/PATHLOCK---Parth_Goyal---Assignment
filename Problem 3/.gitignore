@@ -1,0 +1,34 @@
+# Build results
+bin/
+obj/
+[Test]Results*/
+
+# Rider/VS/VS Code
+.idea/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs/Temp
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# Packages (NuGet cache should be outside repo)
+**/packages/*
+!**/packages/build/
+
+# Others
+*.swp
+*.userprefs
+*.pidb
+_ReSharper.Caches/
+

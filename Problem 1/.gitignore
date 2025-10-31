@@ -1,0 +1,69 @@
+# ----- General -----
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*.orig
+*.bak
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# ----- Node/React (Frontend) -----
+task-manager-frontend/node_modules/
+task-manager-frontend/build/
+task-manager-frontend/.cache/
+task-manager-frontend/coverage/
+task-manager-frontend/npm-debug.log*
+task-manager-frontend/yarn-debug.log*
+task-manager-frontend/yarn-error.log*
+
+# CRA / tooling artifacts
+task-manager-frontend/.eslintcache
+task-manager-frontend/.parcel-cache
+
+# ----- .NET (Backend) -----
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.ncrunchsolution
+*.ncrunchproject
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET / IIS
+App_Data/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/.idea.TaskManager.API
+.idea/.idea.TaskManagerBackend
+
+# Publish outputs
+**/publish/
+**/artifacts/
+
+# User secrets (do not commit secrets)
+**/secrets.json
+
+# Coverage
+**/TestResults/
+**/Coverage*/
+
+
